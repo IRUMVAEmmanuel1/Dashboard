@@ -73,3 +73,18 @@
 
 li{text-decoration: none;}
 a{ text-decoration: none;}
+
+a,
+img,
+span,
+data,
+time,
+input,
+button,
+span.icon {display: block;}
+
+button{
+    font:inherit;
+    background: none;
+    border: none;
+}
