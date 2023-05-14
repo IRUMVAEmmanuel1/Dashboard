@@ -175,3 +175,9 @@ body{
     opacity: 1;
     visibility: visible;
 }
+
+.navbar_list{
+    padding-inline:15px;
+    padding-bottom: 15px;
+    
+}
