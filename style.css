@@ -185,5 +185,14 @@ body{
 .navbar-link{
     color:var(--onyx);
     font-size: var(--fs-6);
-    fo
+    font-weight: var(--fw-500);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    border-radius: var(--radius-6);
+    -webkit-border-radius: var(--radius-6);
+    -moz-border-radius: var(--radius-6);
+    -ms-border-radius: var(--radius-6);
+    -o-border-radius: var(--radius-6);
 }
