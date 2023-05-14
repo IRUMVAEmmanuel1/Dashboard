@@ -179,5 +179,11 @@ body{
 .navbar_list{
     padding-inline:15px;
     padding-bottom: 15px;
-    
+
+}
+
+.navbar-link{
+    color:var(--onyx);
+    font-size: var(--fs-6);
+    fo
 }
