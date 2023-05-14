@@ -169,4 +169,9 @@ body{
     visibility: hidden;
     transition: 0.5s var(--cubic-out);
    
+}  
+
+.header.active .navbar{
+    opacity: 1;
+    visibility: visible;
 }
