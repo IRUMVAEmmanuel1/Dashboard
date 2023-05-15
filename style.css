@@ -116,6 +116,10 @@ body{
     padding-inline: 15px;
 }
 
+.icon-box{
+    font-variation-settings: 'wght' 300;
+}
+
 /* Header css */
 
 
