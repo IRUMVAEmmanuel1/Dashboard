@@ -231,3 +231,5 @@ body{
     -ms-border-radius: var(--radius-6);
     -o-border-radius: var(--radius-6);
 }
+
+.notification:is(:hover, :focus){background: var(--black_08);}
