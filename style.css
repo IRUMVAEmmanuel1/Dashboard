@@ -203,3 +203,8 @@ body{
     -ms-border-radius: var(--radius-6);
     -o-border-radius: var(--radius-6);
 }
+
+
+.navbar-list li a {
+    text-decoration: none;
+}
