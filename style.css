@@ -233,3 +233,19 @@ body{
 }
 
 .notification:is(:hover, :focus){background: var(--black_08);}
+
+.header_profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    padding-right: 15px;
+    border-radius: var(--radius-6);
+    
+}
+
+.profile-avatar{
+    overflow: hidden;
+    border-radius: var(--radius-6);
+    
+}
