@@ -205,6 +205,6 @@ body{
 }
 
 
-.navbar-list li a {
+.navbar-list li, .user-action-list li  {
     list-style-type: none;
 }
