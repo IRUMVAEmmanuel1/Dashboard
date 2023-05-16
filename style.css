@@ -206,5 +206,5 @@ body{
 
 
 .navbar-list li a {
-    text-decoration: none;
+    list-style-type: none;
 }
