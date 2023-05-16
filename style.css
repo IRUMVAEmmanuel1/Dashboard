@@ -251,3 +251,9 @@ body{
 }
 
 .header :is(:profile-title, .profile-subtitle){font-size: var(--fs-9);}
+
+.header .profile-title{
+    color: var(--onyx);
+    margin-bottom: 2px;
+    font-weight: var(--fw-600);
+}
