@@ -210,7 +210,7 @@ body{
     list-style-type: none;
 }
 
-.navbar-link:is(:hover, :focus){background: var(--black_08);}
+:is(.navbar-link, .notification, .header-profile):is(:hover, :focus){background: var(--black_08);}
 
 .navbar-link.active{color: var(--blue-ryb);}
 
@@ -231,8 +231,6 @@ body{
     -ms-border-radius: var(--radius-6);
     -o-border-radius: var(--radius-6);
 }
-
-.notification:is(:hover, :focus){background: var(--black_08);}
 
 .header_profile{
     display: flex;
@@ -261,4 +259,3 @@ body{
     color: var(--cool-gray);
     font-weight: var(--fw-500);
 }
-.header-profile:is(hover, :focus){background: var(--black_08);}
