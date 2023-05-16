@@ -221,3 +221,13 @@ body{
     align-items: center;
     flex-direction: row-reverse;
 }
+
+.notification{
+    color: var(--onyx);
+    padding: 8px;
+    border-radius: var(--radius-6);
+    -webkit-border-radius: var(--radius-6);
+    -moz-border-radius: var(--radius-6);
+    -ms-border-radius: var(--radius-6);
+    -o-border-radius: var(--radius-6);
+}
