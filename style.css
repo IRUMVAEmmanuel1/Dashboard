@@ -120,7 +120,8 @@ body{
     font-variation-settings: 'wght' 300;
 }
 
-.inbox-box{
+.inbox-box .icon{
+    font-size: 22px;
     
 }
 /* Header css */
@@ -208,3 +209,7 @@ body{
 .navbar-list li, .user-action-list li  {
     list-style-type: none;
 }
+
+.navbar-link:is(:hover, :focus){background: var(--black_08);}
+
+.navbar-link.active{color: var(--blue-ryb);}
