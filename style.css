@@ -249,3 +249,5 @@ body{
     border-radius: var(--radius-6);
     
 }
+
+.header :is(:profile-title, .profile-subtitle){font-size: var(--fs-9);}
