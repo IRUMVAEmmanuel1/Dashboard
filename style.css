@@ -257,3 +257,8 @@ body{
     margin-bottom: 2px;
     font-weight: var(--fw-600);
 }
+.header .profile-subtitle{
+    color: var(--cool-gray);
+    font-weight: var(--fw-500);
+}
+.header-profile:is(hover, :focus){background: var(--black_08);}
