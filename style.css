@@ -295,11 +295,11 @@ body{
 }
 
 
-.navbar-list li, .user-action-list li, .ctx-menu li,.contact-list,.progress-list {
+.navbar-list li, .user-action-list li, .ctx-menu li,.contact-list,.progress-list li{
     list-style-type: none;
 }
 
-:is(.navbar-link, .notification, .header-profile):is(:hover, :focus){background: var(--black_08);}
+:is(.navbar-link, .notification, .header-profile,):is(:hover, :focus){background: var(--black_08);}
 
 .navbar-link.active{color: var(--blue-ryb);}
 
