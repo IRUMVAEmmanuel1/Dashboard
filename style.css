@@ -206,7 +206,7 @@ body{
 }
 
 
-.navbar-list li, .user-action-list li, .ctx-menu li {
+.navbar-list li, .user-action-list li, .ctx-menu li,.contact-list {
     list-style-type: none;
 }
 
