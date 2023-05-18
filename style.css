@@ -145,6 +145,16 @@ body{
     top: 16px;
     right:16px;
     color: var(--cool-gray);
+    padding: 6px;
+    border-radius: var(--radius-6);
+    -webkit-border-radius: var(--radius-6);
+    -moz-border-radius: var(--radius-6);
+    -ms-border-radius: var(--radius-6);
+    -o-border-radius: var(--radius-6);
+}
+
+.card-menu-btn:is(hover, :focus){
+    background: var(--black_08);
 }
 /* Header css */
 
