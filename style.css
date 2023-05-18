@@ -273,4 +273,6 @@ body{
 .article-subtitle{
     color: var(--davys-gray);
     font-size: var(--fs-6);
+    font-weight: var(--fw-500);
+    margin-bottom: 25px;
 }
