@@ -272,4 +272,5 @@ body{
 .article-title{ margin-bottom: 10px;}
 .article-subtitle{
     color: var(--davys-gray);
+    font-size: var(--fs-6);
 }
