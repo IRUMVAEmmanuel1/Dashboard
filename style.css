@@ -179,7 +179,7 @@ body{
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-    gap: 8px;
+    gap: 8px; 
     padding: 5px 25px;
     border-radius: var(--radius-6);
     -webkit-border-radius: var(--radius-6);
@@ -192,6 +192,11 @@ body{
     color: var(--hover-color, var(--eerie-black));
     background: var(--black_08);
 
+}
+
+.ctx-menu-btn.red{
+    --hover-color: var(--imperial-red);
+    --color: var(--imperial-red);
 }
     /* Header css */
 
