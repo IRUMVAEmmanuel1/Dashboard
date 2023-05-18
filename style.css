@@ -202,10 +202,20 @@ body{
 .divider{
     height:1px;
     background: var(--bg, var(--black_08));
+    margin-block: var(--mb, 8px);
 }
+
+.card-divider{
+    --bg: var(--black_12);
+    --mb: 25px;
+}
+
+
+
+
+
+
     /* Header css */
-
-
 .header{
     background: var(--cubic-in);
     position: fixed;
