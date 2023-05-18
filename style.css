@@ -198,6 +198,11 @@ body{
     --hover-color: var(--imperial-red);
     --color: var(--imperial-red);
 }
+
+.divider{
+    height:1px;
+    background: var(--bg, var(--black_08));
+}
     /* Header css */
 
 
