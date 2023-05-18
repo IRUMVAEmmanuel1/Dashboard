@@ -262,9 +262,14 @@ body{
 
 
 /* Home */
-
+.article.container{ padding:20px 14px ; }
 .home{
     display: grid;
     gap: 25px;
 
+} 
+
+.article-title{ margin-bottom: 10px;}
+.article-subtitle{
+    color: var(--davys-gray);
 }
