@@ -171,6 +171,10 @@ body{
 .ctx-menu.active{
     display: block;
 }
+
+.ctx-menu-btn{
+    color: var(--color, var(--sonic-sliver));
+}
 /* Header css */
 
 
