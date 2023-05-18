@@ -206,7 +206,7 @@ body{
 }
 
 
-.navbar-list li, .user-action-list li, .ctx-menu li,.contact-list {
+.navbar-list li, .user-action-list li, .ctx-menu li,.contact-list,.progress-list {
     list-style-type: none;
 }
 
@@ -258,4 +258,13 @@ body{
 .header .profile-subtitle{
     color: var(--cool-gray);
     font-weight: var(--fw-500);
+}
+
+
+/* Home */
+
+.home{
+    display: grid;
+    gap: 25px;
+
 }
