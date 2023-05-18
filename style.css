@@ -156,6 +156,12 @@ body{
 .card-menu-btn:is(hover, :focus){
     background: var(--black_08);
 }
+
+.ctx-menu{
+    background: var(--white);
+    position: absolute;
+    top: 55px;
+}
 /* Header css */
 
 
